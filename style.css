@@ -72,7 +72,37 @@ button {
     border-radius: 5px;
     margin-top: 15px;
 }
+button:hover {
+    cursor:pointer;
+    background-color:#9cca31;
+    transform: scale(1.02);
+}
 #price {
     font-weight: 700;
     font-size: 1.4rem;
+}
+#bottom-left-section h4 {
+    margin-bottom: 25px;
+
+}
+#price-frequency,#price {
+    display: inline-block;
+}
+#price-frequency {
+    position: relative;
+    top: -3px;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    margin-left: 5px;
+}
+#price-container {
+    margin-bottom: 15px;
+}
+#bottom-left-section p {
+    font-size: 0.8rem;
+}
+#bottom-right-section ul {
+    padding:0;
+    list-style: none;
+    opacity: 0.8;
 }
